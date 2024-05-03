@@ -5,7 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const accuracyElement = document.getElementById("accuracy");
 
   //Text to display
-  const sampleTexts = ["you", "me", "when", "they"];
+  const sampleTexts = [
+    "A paralegal is a person trained in legal matters who performs tasks requiring knowledge of the law and legal procedures.",
+    "A late 20th century trend in typing, primarily used with devices with small keyboards",
+    "The recent emergence of several competitive typing websites has allowed several fast typists on computer keyboards to emerge along with new records",
+    "Word processors evolved dramatically once they became software programs rather than dedicated machines.",
+  ];
 
   // initial values
   let currentIndex = 0;
